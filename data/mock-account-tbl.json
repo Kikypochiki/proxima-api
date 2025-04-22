@@ -1,10 +1,30 @@
-[ 
-    { 
-        "id": "fc16189b-ddf5-5fea-a36d-d4737ee37bd7", 
-        "author": "admin", 
-        "title": "Fox Story", 
-        "content": "The quick brown fox jumps over the lazy dog.", 
-        "isSynchronized": 0, 
-        "createdAt": 1734249472 
-    } 
-] 
+{
+    "dohn": {
+        "id": "45bfe41b-8ddf-54a1-97a6-8b33353a6457",
+        "fullName": "Dohn Michael B.Varquez",
+        "hash": "$2b$12$3C.vEj9gFlftMn8mMfhvbOJ/5UmKUqHAGHrsMjdGDCGLAwsju515i",
+        "userLevel": 3,
+        "createdAt": 1745307926
+    },
+    "ken": {
+        "id": "4f156606-8cb3-509e-a177-956ca0a22015",
+        "fullName": "Ken Cedrick Jimeno",
+        "hash": "$2b$12$DxM9wnkNgomi.oICD4j4FuXATAMBe1mWtfP5iGBk6opBvMCJyBR4u",
+        "userLevel": 2,
+        "createdAt": 1745308038
+    },
+    "walt": {
+        "id": "80083530-d40f-5d4b-aaec-7dc6e4696607",
+        "fullName": "Walter H. White",
+        "hash": "$2b$12$RYLwIwyYnGKAQWO1Gx.rIu2BEfcYFdkqri5Ur6IQ1/chodEIItvGW",
+        "userLevel": 1,
+        "createdAt": 1745308068
+    },
+    "jessie": {
+        "id": "f1f9a21b-3d03-505f-9f32-82fb5eb57479",
+        "fullName": "Jessie Pinkman",
+        "hash": "$2b$12$NxN0LkXNy9g9fJ/E9fDeSOQ/wCmf9Be4vFu7QDQx7qXyMWjXCc0sW",
+        "userLevel": 0,
+        "createdAt": 1745308094
+    }
+}

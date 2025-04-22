@@ -15,7 +15,7 @@ def encode_pw(pw):
  
 def ask_password(): 
     while True: 
-        pw = getpass.getpass(" Enter password (8-16 chars): ").strip() 
+        pw = input(" Enter password (8-16 chars): ").strip() 
         if PASSWORD.fullmatch(pw): 
             return pw 
  
@@ -32,7 +32,7 @@ def main():
     print("\n[GUIDE]\n Hit <ENTER> after an empty username to end program.") 
     print(" User level: 0 - Std user, 1 - Moderator, 2 - Admin, 3 - Super Admin") 
     print(" Username: lowercase, starts with a-z then (alphanumeric and period).") 
-    print(" Password: contains at least 1 lowercase, " \ 
+    print(" Password: contains at least 1 lowercase, "  
         "1 uppercase, 1 digit, and 1 special character (@$!%*?&)") 
     print(" Use the same username to overwrite account.") 
      
@@ -43,8 +43,8 @@ def main():
  
         uname = input(" Username (1-15 chars): ") 
         if not uname: 
-            break
-            assert USERNAME.fullmatch(uname), "Invalid username." 
+            break 
+        assert USERNAME.fullmatch(uname), "Invalid username."
  
         hashed = encode_pw(ask_password()) 
         user_level = input(" User level: ")[:1] 
@@ -66,4 +66,4 @@ def main():
  
  
 if __name__ == "__main__": 
-    main()
+    main() 
